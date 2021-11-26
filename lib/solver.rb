@@ -1,6 +1,6 @@
 class Solver
   def factorial(number)
-    raise StandardError.new('factorial(n) N is negative') if number.negative?
+    raise StandardError, 'factorial(n) N is negative' if number.negative?
 
     return 1 if [0, 1].include?(number)
 
