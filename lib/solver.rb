@@ -5,6 +5,7 @@ class Solver
   end
 
   def reverse(string)
+    return string.reverse
   end
 
   def fizzbuzz(n)
