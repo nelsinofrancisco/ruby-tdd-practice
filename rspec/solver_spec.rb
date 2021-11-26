@@ -17,13 +17,13 @@ describe Solver do
 
   context 'solver.reverse(string)' do
     it "solver.reverse('Laylo') => 'olyaL" do
-      expect(solver.reverse('Laylo')).to eq 'Laylo'
+      expect(solver.reverse('Laylo')).to eq 'olyaL'
     end
     it "solver.reverse('Carlos Feliz') => 'zileF solraC" do
       expect(solver.reverse('Carlos Feliz')).to eq 'zileF solraC'
     end
     it "solver.reverse('zileF solraC') => 'Carlos Feliz'" do
-      expect(solver.reverse('zilef solraC')).to eq 'Carlos Feliz'
+      expect(solver.reverse('zileF solraC')).to eq 'Carlos Feliz'
     end
   end
 end
