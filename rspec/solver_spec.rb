@@ -13,6 +13,9 @@ describe Solver do
     it 'solver.factorial(0) => 1' do
       expect(solver.factorial(0)).to eq 1
     end
+    it 'solver.factorial(-1) => raise Error' do
+      expect{solver.factorial(-1)}.to raise_error(StandardError)
+    end
   end
 
   context 'solver.reverse(string)' do
