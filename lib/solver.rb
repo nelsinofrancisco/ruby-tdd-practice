@@ -1,13 +1,23 @@
 class Solver
-  def factorial(n)
-    return 1 if n == 0 || n == 1
-    return factorial(n-1) * n
+  def factorial(number)
+    return 1 if [0, 1].include?(number)
+
+    factorial(number - 1) * number
   end
 
   def reverse(string)
-    return string.reverse
+    string.reverse
   end
 
-  def fizzbuzz(n)
+  def fizzbuzz(number)
+    if (number % 15).zero?
+      'fizzbuzz'
+    elsif (number % 5).zero?
+      'buzz'
+    elsif (number % 3).zero?
+      'fizz'
+    else
+      number.to_s
+    end
   end
 end

@@ -26,4 +26,22 @@ describe Solver do
       expect(solver.reverse('zileF solraC')).to eq 'Carlos Feliz'
     end
   end
+
+  context 'Fizzbuzz"' do
+    it 'Should return "fizz"' do
+      expect(solver.fizzbuzz(3)).to eq 'fizz'
+    end
+
+    it 'Should return "buzz" when N divisible by 5' do
+      expect(solver.fizzbuzz(5)).to eq 'buzz'
+    end
+
+    it 'Should return "fizzbuzz" when N divisible by 3 and 5' do
+      expect(solver.fizzbuzz(15)).to eq 'fizzbuzz'
+    end
+
+    it 'Should return N when it is not divisible by 3 or 5' do
+      expect(solver.fizzbuzz(7)).to eq '7'
+    end
+  end
 end

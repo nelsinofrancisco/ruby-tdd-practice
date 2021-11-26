@@ -41,12 +41,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@nelsino_s](https://twitter.com/nelsino_s)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nelsinofrancisco/)
 
-👩‍💻 **Laylo**
+👩‍💻**Laylo Khodjaeva**
 
-- GitHub: [@](https://github.com/)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [](https://www.linkedin.com/in/)
-
+- GitHub: [@Laylo309](https://github.com/Laylo309)
+- Twitter: [@Laylo](https://twitter.com/home?lang=en)
+- LinkedIn: [LayloKhodjaeva](https://www.linkedin.com/in/laylo-khodjaeva-05a972207/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
